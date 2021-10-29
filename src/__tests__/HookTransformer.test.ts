@@ -13,6 +13,10 @@ const transformer = new GraphQLTransform({
   ],
 });
 
+test("mock test", () => {
+  // do nothing
+})
+
 // test("@hook directive can be used on types", () => {
 //   const schema = `
 //     type Todo @model @hook(name: "auditlog") {
