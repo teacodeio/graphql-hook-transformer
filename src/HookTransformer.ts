@@ -344,10 +344,9 @@ export class HookTransformer extends Transformer {
 
     // get already existing resolver
     const originalResolver = ctx.getResource(originalResolverId);
-    if (!originalResolver.Properties) {
-      throw new Error(
-        "Could not find any properties in the generated resource."
-      );
+    if (!originalResolver?.Properties) {
+      // if not found, ignore
+      return
     }
 
     // build a pipeline function and copy the original data source and mapping templates
