@@ -1,6 +1,6 @@
 {
   "name": "@teacode/graphql-hook-transformer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add a before and after hook to selected Amplify API mutations and queries.",
   "author": "Michał Pierzchlewicz <mike@teacode.io>",
   "license": "MIT",
